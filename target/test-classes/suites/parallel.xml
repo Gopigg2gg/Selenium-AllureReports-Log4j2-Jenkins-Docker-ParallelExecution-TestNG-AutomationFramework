@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Multi browser test" verbose="1" parallel="tests" thread-count="99">
+
+    <test name="Chrome execution">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.okcredit.test.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Execution">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+           	<class name="com.okcredit.test.LoginTest"/>
+            <class name="com.okcredit.test.AddCustomerTest"/>
+            <class name="com.okcredit.test.AddSupplierTest"/>
+            <class name="com.okcredit.test.CustomerProfileTest"/>
+            <class name="com.okcredit.test.SupplierProfileTest"/>
+            <class name="com.okcredit.test.HomePage_test"/>
+        </classes>
+    </test>
+
+	<test name="Safari Execution">
+        <parameter name="browser" value="safari"/>
+        <classes>
+           <class name="com.okcredit.test.LoginTest"/>
+            <class name="com.okcredit.test.AddCustomerTest"/>
+            <class name="com.okcredit.test.AddSupplierTest"/>
+            <class name="com.okcredit.test.CustomerProfileTest"/>
+            <class name="com.okcredit.test.SupplierProfileTest"/>
+            <class name="com.okcredit.test.HomePage_test"/>
+        </classes>
+    </test>
+    
+</suite>

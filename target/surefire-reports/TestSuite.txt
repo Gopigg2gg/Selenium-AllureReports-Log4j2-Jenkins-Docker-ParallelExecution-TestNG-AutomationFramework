@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 147.528 s <<< FAILURE! - in TestSuite
+com.okcredit.test.AddCustomerTest.addCustomer_withoutmobile  Time elapsed: 40.672 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //span[normalize-space()='Add Customer']' (tried for 30 second(s) with 500 milliseconds interval)
+	at com.okcredit.test.AddCustomerTest.addCustomer_withoutmobile(AddCustomerTest.java:21)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 3 seconds. Unable to locate the element
+	at com.okcredit.test.AddCustomerTest.addCustomer_withoutmobile(AddCustomerTest.java:21)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Add Customer']"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'Gopis-MacBook-Pro.local', ip: '2402:3a80:cda:e184:f3:a14c:fd2b:763f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3471508db62a350128cbef57d35f269d, findElement {using=xpath, value=//span[normalize-space()='Add Customer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/ps/b9yy5_0905z...}, goog:chromeOptions: {debuggerAddress: localhost:51263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51263/devtoo..., se:cdpVersion: 91.0.4472.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3471508db62a350128cbef57d35f269d
+	at com.okcredit.test.AddCustomerTest.addCustomer_withoutmobile(AddCustomerTest.java:21)
+
+com.okcredit.test.AddSupplierTest.addsupplier  Time elapsed: 40.74 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //button[normalize-space()='Supplier']' (tried for 30 second(s) with 500 milliseconds interval)
+	at com.okcredit.test.AddSupplierTest.addsupplier(AddSupplierTest.java:23)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 3 seconds. Unable to locate the element
+	at com.okcredit.test.AddSupplierTest.addsupplier(AddSupplierTest.java:23)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Supplier']"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'Gopis-MacBook-Pro.local', ip: '2402:3a80:cda:e184:f3:a14c:fd2b:763f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fff574c0338fc2695e6cd24ea71df8d, findElement {using=xpath, value=//button[normalize-space()='Supplier']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/ps/b9yy5_0905z...}, goog:chromeOptions: {debuggerAddress: localhost:51296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51296/devtoo..., se:cdpVersion: 91.0.4472.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fff574c0338fc2695e6cd24ea71df8d
+	at com.okcredit.test.AddSupplierTest.addsupplier(AddSupplierTest.java:23)
+

@@ -1,0 +1,8 @@
+com/okcredit/test/LoginTest.class
+com/okcredit/test/CustomerTransactionTest.class
+com/okcredit/BaseWeb.class
+com/okcredit/test/SupplierTransactionList.class
+com/okcredit/TestListener.class
+com/okcredit/test/CustomerProfileTest.class
+com/okcredit/test/AddCustomerTest.class
+com/okcredit/test/AddSupplierTest.class

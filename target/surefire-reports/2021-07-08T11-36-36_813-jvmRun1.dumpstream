@@ -1,0 +1,10 @@
+# Created at 2021-07-08T11:39:37.078
+no such window: window was already closed
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'Gopis-MacBook-Pro.local', ip: '2402:3a80:cda:e184:f3:a14c:fd2b:763f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ffeaf535160a1ef063315889a23ffe2, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/ps/b9yy5_0905z...}, goog:chromeOptions: {debuggerAddress: localhost:51120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51120/devtoo..., se:cdpVersion: 91.0.4472.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ffeaf535160a1ef063315889a23ffe2
+

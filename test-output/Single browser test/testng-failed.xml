@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="99" parallel="tests" name="Failed suite [Single browser test]" guice-stage="DEVELOPMENT">
+  <test thread-count="99" parallel="tests" name="Chrome execution(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.okcredit.test.SupplierProfileTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verify_customer_profile"/>
+          <include name="postCondition"/>
+          <include name="beforeSuite"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.okcredit.test.SupplierProfileTest -->
+      <class name="com.okcredit.test.AddSupplierTest">
+        <methods>
+          <include name="addsupplier"/>
+          <include name="postCondition"/>
+          <include name="beforeSuite"/>
+          <include name="setUp"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.okcredit.test.AddSupplierTest -->
+      <class name="com.okcredit.test.CustomerProfileTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="postCondition"/>
+          <include name="verify_customer_profile"/>
+          <include name="beforeSuite"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.okcredit.test.CustomerProfileTest -->
+      <class name="com.okcredit.test.AddCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="postCondition"/>
+          <include name="addCustomer_withoutmobile"/>
+          <include name="beforeSuite"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.okcredit.test.AddCustomerTest -->
+    </classes>
+  </test> <!-- Chrome execution(failed) -->
+</suite> <!-- Failed suite [Single browser test] -->
